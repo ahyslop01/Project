@@ -1,0 +1,135 @@
+/* CSS Document */
+h1{
+	color: white;
+}
+
+td{
+	
+	width: 33%;
+	border: 1px solid white;
+	color: white;
+	text-align-last: center;
+}
+
+th {
+	text-decoration: underline;
+	width: 33%;
+	border: 1px solid white;
+	color: white;
+	text-align-last: center;
+}
+
+tr{
+	width: 100%;
+	text-align: center;
+}
+#table {
+	border: 1px solid white;
+	padding: 10px;
+	text-align: center;
+	color: white;
+	width: 100%;
+}
+
+#project {
+	color: white;
+}
+body {
+	background-color: black;
+	
+}
+#sidebarContainer{
+	width: 200px;
+	height: 800px;
+	border-style: dashed;
+	border-color: #000000;
+	float: left;
+}
+
+#content {
+	float:left;
+	width: 800px;
+	border-bottom-color: #000000;
+	border-style: dashed;
+	height: 800px;
+	margin-left: 10px;
+}
+
+#button1 {
+	width: 100%;
+	
+}
+
+#sidenav {
+	list-style-type: none;
+	
+	
+	
+}
+
+
+
+#rightnav {
+	float: right;
+}
+#homeicon{
+	padding: 2px;
+}
+#wrapper {
+	margin-right: 5%;
+	margin-left: 5%;
+	background-color:#201F1F;
+	width: 90%;
+	height: 1000px;
+	padding: 5%;
+	margin-top: 60px;
+}
+
+#contentleft {
+height: 100%;
+	width: 70%;
+	float: left;
+}
+
+#contentRight {
+	height: 100%;
+	width: 20%;
+	float: left;
+}
+
+#navwrapper {
+	width: 100%;
+	height: 400px;
+	margin: 0 auto;
+}
+
+#nav1 {
+	width: 25%;
+	height: 250px;
+	border: #000000;
+	border-style: dashed;
+	float: left;
+	margin-right:12%;
+	
+	
+	
+}
+
+#nav2 {
+	width: 25%;
+	height: 250px;
+	border: #000000;
+	border-style: dashed;
+	float: left;
+	
+}
+
+#nav3 {
+	width: 25%;
+	height: 250px;
+	border: #000000;
+	border-style: dashed;
+	float: right;
+	margin-left: 12%;	
+}
+
