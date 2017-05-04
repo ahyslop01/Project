@@ -21,7 +21,7 @@ $_SESSION['username']= $uid;
    echo "Your username or password is incorrect, please return and try again";
 
   }else{
-      header ("Location: main.php");
+      header ("Location: Projects.php");
       
  }
 

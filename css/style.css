@@ -1,21 +1,75 @@
 /* CSS Document */
 h1{
-	color: white;
+	color: black;
+}
+body {
+	color: black;
 }
 
-td{
-	
-	width: 33%;
-	border: 1px solid white;
+#projectbttn {
+	width: 100%;
+	height: 100px;
+	background-color: black;
 	color: white;
+	font-size: 30px;
+	margin-top: 20px;
+	padding-top: 20px;
+}
+#projectbttn:hover {
+	color: black;
+	background-color: white;
+}
+
+
+td{
+	width: 33%;
+	
+	color: black;
 	text-align-last: center;
+}
+#container {
+	width:100%;
+	height:1000px;
+	margin-left: 400px;
+}
+#sidebarcontent {
+	width: 300px;
+	float: left;
+	position: fixed;
+	background-color: black;
+	top:20px;
+	left:0;
+	height: 100%;
+	text-align: center;
+}
+.navbar-brand {
+	color: white !important;
+}
+
+.media {
+	border-style: solid;
+	padding: 10px;
+	
+}
+
+.media-heading {
+	text-decoration: underline;
+}
+
+#feedcontainer {
+	float: left;
+	width: 400px;
+	margin-top: 20px;
+	padding: 10px;
+	
+	
 }
 
 th {
 	text-decoration: underline;
 	width: 33%;
 	border: 1px solid white;
-	color: white;
+	color: black;
 	text-align-last: center;
 }
 
@@ -24,10 +78,10 @@ tr{
 	text-align: center;
 }
 #table {
-	border: 1px solid white;
+	border-style: solid;
+	border-color: black;
 	padding: 10px;
 	text-align: center;
-	color: white;
 	width: 100%;
 }
 
@@ -35,7 +89,7 @@ tr{
 	color: white;
 }
 body {
-	background-color: black;
+	background-color: white;
 	
 }
 #sidebarContainer{
@@ -44,15 +98,14 @@ body {
 	border-style: dashed;
 	border-color: #000000;
 	float: left;
+	background-color: #4d4d4d;
 }
 
 #content {
 	float:left;
-	width: 800px;
-	border-bottom-color: #000000;
-	border-style: dashed;
+	width: 70%;	
 	height: 800px;
-	margin-left: 10px;
+	
 }
 
 #button1 {
@@ -78,23 +131,25 @@ body {
 #wrapper {
 	margin-right: 5%;
 	margin-left: 5%;
-	background-color:#201F1F;
+	background-color:white;
 	width: 90%;
 	height: 1000px;
-	padding: 5%;
-	margin-top: 60px;
+	padding: 20px;
+	color: black;
+	
 }
 
 #contentleft {
 height: 100%;
 	width: 70%;
 	float: left;
+	
 }
 
 #contentRight {
 	height: 100%;
 	width: 20%;
-	float: left;
+	float: right;
 }
 
 #navwrapper {

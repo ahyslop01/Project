@@ -20,6 +20,7 @@ include 'nav2.php';
    ?>
   
   <div id="content">
+  	<div id="container">
   	<h1>My Projects</h1>
      <a class="nav-tabs" href="create.php"><h3>New</h3></a>
   	<?php

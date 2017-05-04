@@ -22,7 +22,7 @@
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
       <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#topFixedNavbar1" aria-expanded="false"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
-      <a class="navbar-brand" href="main.php">Logo</a></div>
+      <a class="navbar-brand" href="index.php">The Project</a></div>
       
       <form class="navbar-form navbar-left" role="search">
               <div class="form-group">
@@ -54,7 +54,7 @@
             <li><a href="#">Separated link</a></li>
           </ul>
         </li>
-        <li><a href="#">Link</a></li>
+        
       </ul>
     </div>
     <!-- /.navbar-collapse -->

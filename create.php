@@ -13,10 +13,13 @@ include 'nav2.php';
 
 <div id="wrapper">
   
+  
+ 
   <?php
 	include 'sidebar.php'
    ?>
-  
+	
+  <div id="container">
   <div id="content">
   	<h1> Create</h1>
   	
@@ -28,6 +31,7 @@ include 'nav2.php';
 </form>
 	
   </div>
+	</div>
 </div>
    
 

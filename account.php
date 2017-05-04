@@ -15,6 +15,7 @@ include 'connection.php';
 	include 'accsidebar.php';
 	?>
 	<div id="content">
+	<div id="container">
 		<h1>Account Details</h1>
 		<?php
 		session_start();

@@ -8,18 +8,21 @@ include 'connection.php';
 <html>
 <body>
 <div id="wrapper">  
- 
+  
  
   <?php
 	include 'sidebar.php'
    ?>
 	
+  <div id="container">
   <div id="content">
-  	<div id="container">
-  	<h1 id ="projects"> Projects</h1>
-	<?php
-	include 'feed.php'		
-   ?>
+  	<h1> Search </h1>
+	
+	<form action="searcher.php" method="GET">
+    <input type="text" name="query" />
+    <input type="submit" value="Search" />
+</form>
+	
 	  </div>
 </div>
 </body>

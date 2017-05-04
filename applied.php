@@ -2,37 +2,35 @@
 <?php
 include 'connection.php';
 
-
 //get data
 
 session_start();
 		$name = $_SESSION['username'];
-		
-		 $sqlget = "SELECT * FROM applied WHERE userid = '$name'";
 
-
- 
+//get data
+$sqlget = "SELECT * FROM applied WHERE userid = '$name'";
 
 $sqldata = mysqli_query($conn, $sqlget) or die("error getting data");
 		
 
 echo "<table>";
 
-echo "<tr><th>Userid</th><th>projectid</th><th>Description</th></tr>";
+echo "<tr><th>Title</th><th>Requirements</th></tr>";
 
 	while ($row = mysqli_fetch_array($sqldata, MYSQLI_ASSOC)) {
-		
-
-		echo '<tr><td>';
-		echo $row['userid'];
-		echo '</td><td>';
-		echo $row['projectid'];
-		echo '</td><td>';
-		echo $row['description'];
-		echo '</td><tr>';
-		
+		$projectid = $row['projectid'];
+		$sqlget2 = "SELECT * FROM project WHERE id = '$projectid'";
+			$sqldata2 = mysqli_query($conn, $sqlget2) or die("error getting data");
+				while ($row2 = mysqli_fetch_array($sqldata2, MYSQLI_ASSOC)) {
+						
+					echo '<tr><td>';
+					echo $row2['title'];
+					echo '</td><td>';
+					echo $row2['description'];
+					echo '</td><tr>';
+					
+				}
 		
 	}
 
-echo "</table>";
-?>
+   ?>

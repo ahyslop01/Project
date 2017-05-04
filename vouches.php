@@ -11,7 +11,7 @@ include 'nav2.php';
 <body>
 
 <div id="wrapper">
-  
+  <div id="container">
   <?php
 	include 'accsidebar.php'
    ?>
@@ -24,7 +24,7 @@ include 'nav2.php';
   
   
 </div>
-   
+	</div>
 
 </body>
 </html>
